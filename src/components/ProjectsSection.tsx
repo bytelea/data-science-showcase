@@ -12,14 +12,6 @@ const projects = [
     color: "from-primary/20 to-transparent",
   },
   {
-    title: "Kittydoro",
-    description:
-      "A playful Pomodoro timer application built with JavaScript — combining productivity with a fun, cat-themed interface.",
-    tags: ["JavaScript", "Web App", "UI/UX"],
-    github: "https://github.com/bytelea/kittydoro",
-    color: "from-primary/10 to-transparent",
-  },
-  {
     title: "Data Cleaning & Processing",
     description:
       "Python-based data cleaning and processing pipeline developed as part of the DCP25 coursework, focusing on real-world data preparation techniques.",
