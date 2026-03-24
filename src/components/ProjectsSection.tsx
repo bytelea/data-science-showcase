@@ -262,7 +262,7 @@ const ProjectsSection = () => {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2.5 text-sm font-medium border border-border rounded-lg hover:border-primary/50 hover:bg-primary/10 transition-all"
                   >
-                    <Download size={14} />
+                    <ExternalLink size={14} />
                     {project.btnLabel}
                   </a>
                 </div>
