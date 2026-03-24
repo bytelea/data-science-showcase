@@ -3,6 +3,7 @@ import { useRef } from "react";
 import { ExternalLink, Github, Download } from "lucide-react";
 import hcdCover from "@/assets/hcd-cover.jpg";
 import analyticsCover from "@/assets/analytics-cover.jpg";
+import infobipCover from "@/assets/infobip-cover.jpg";
 
 const projects = [
   {
@@ -180,6 +181,19 @@ const ProjectsSection = () => {
               tags: ["Machine Learning", "Python", "Data Analytics"],
               cover: analyticsCover,
               pdf: "/files/Analytics_Report.pdf",
+              btnLabel: "View Report",
+            },
+            {
+              title: "Competitor Research — Infobip",
+              description: "Comprehensive competitor analysis for Infobip (ANAM Technologies), evaluating Twilio, Plivo, and Whispir across usability heuristics, communication channels, and web design strategies.",
+              highlights: [
+                "Usability heuristics evaluation",
+                "Competitor comparison & analysis",
+                "Communication channel innovation",
+              ],
+              tags: ["Market Research", "UX Analysis", "Internship"],
+              cover: infobipCover,
+              pdf: "/files/Infobip_Competitor_Research.pdf",
               btnLabel: "View Report",
             },
           ].map((project, i) => (
