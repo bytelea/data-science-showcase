@@ -5,7 +5,8 @@ import { useRef } from "react";
 const skills = [
 "Python", "Machine Learning", "Data Analysis", "SQL",
 "HTML/CSS", "JavaScript", "Web Analytics", "Digital Marketing",
-"Java", "Data Visualization", "Problem Solving", "AI"];
+"Java", "Data Visualization", "Problem Solving", "AI",
+"Tableau", "Excel Spreadsheets", "MATLAB", "R", "Jira", "Kanban"];
 
 
 const AboutSection = () => {
